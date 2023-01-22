@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position:fixed;
+    background-color: rgb(44, 42, 42);
+}
+.header-height {
+    height: 90px;
+}
+.float-left{
+    float: left;
+}
+.logo{
+    width: 288px;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header-buttons{
+    width: 288px;
+    height: 90px;
+}
+.nav{
+    width: 864px;
+}
+nav{
+    padding-left: 138px;
+}
+nav li{
+    font-size: 15px;
+    padding-top: 37px;
+    padding-right: 24px;
+}
+.i-size{
+    font-size: 22px;
+}
+.icons ul{
+    padding-top: 37px;
+    width: 229px;
+    padding-left: 59px;
+}
+.icons li{
+    padding-right: 35px;
+}
+.menu-icon{
+    padding-left: 70px;
+}
+main{
+    height: 900px;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/17/17/8a/17178a26ad764906f5ea3c8c44df5ac2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#social{
+    transform: rotate(270deg);
+    width: 435px;
+    height: 90px;
+    margin-top: 330px;
+    margin-left: -172px;
+    float: left;
+}
+.social-list{
+    width: 435px;
+    height: 90px;
+    padding-top: 37px;
+}
+.social-tab{
+    padding-right: 25px;
+}
+#test{
+    width: 1100px;
+    height: 600px;
+    float: left;
+    color: white;
+    position: static;
+}
+#test h1{
+    padding-left: 260px;
+    padding-top: 290px;
+    font-size: 40px;
+}
+#test p{
+    text-align: center;
+    width: 400px;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+#test button{
+    margin-left: 360px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+}
+#founder-about{
+    width: 100%;
+    height: 300px;
+    margin-top: 820px;
+    position:absolute;
+    background-color: rgb(27, 27, 26);
+    color: white ;
+}
+
+
+    
+  
