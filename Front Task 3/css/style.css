@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-box {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}   
+
+.second-box {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    margin: 30px;
+}
+
+.third-box {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: coral;
+    top: 0;
+    margin: 60px;
+}
