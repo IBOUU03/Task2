@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701925427.jpg); 
+}
+
+.solar-system{
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.sun {
+	width: 300px;
+	height: 300px;
+    animation-name: sun-anima;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes sun-anima {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.planet {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+    animation-name: turn;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.mercury {
+	animation-duration: 8s;
+}
+
+@keyframes turn {
+	25%{
+        margin-left: 600px;
+        transform: scale(1);
+    }
+
+    40%{
+        margin-right: 220px;
+        transform: scale(0);
+    }
+    75%{
+        margin-right: 450px;
+        transform: scale(0);
+    }
+    100%{
+        margin: 0;
+        transform: scale(1);
+    }
+}
