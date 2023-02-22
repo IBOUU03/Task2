@@ -5,7 +5,7 @@
 }
 
 .education{
-    width: 1140px;
+    width: 81%;
     height: 400px;
     display: flex;
     margin: auto;
@@ -68,3 +68,23 @@
     transform: scale(1.1);
     background-color: yellow;
 }
+
+
+
+  @media only screen and (max-width: 900px) {
+
+    .education {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .education-about{
+        width: 100%;
+    }
+    .education-section{
+        width: 80%;
+        font-size: 20px;
+    }
+
+
+  }
