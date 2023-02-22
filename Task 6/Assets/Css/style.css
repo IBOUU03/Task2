@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.education{
+    width: 1140px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.education-about{
+    width: 50%;
+}
+.education-about h1{
+    font-size: 38px;
+    font-weight: 300;
+    position: relative;
+}
+.education-about h1 span{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 1px;
+    letter-spacing: -1.2px;
+}
+.education-about h1::after {
+    content: "";
+    background-color: burlywood;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 150%;
+    left: 0;
+}
+.education-about p{
+    padding-top: 100px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.education-section{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.education-item{
+    width: 50%;
+    border: 1px solid black;
+    padding: 13px 20px;
+    transition: all 1s;
+    
+}
+.education-item img{
+    width: 76px;
+    height: 69px;
+}
+.education-item h5{
+    bottom: 0;
+    font-size: 21px;
+    font-weight: 800;
+    font-style: normal;
+}
+.education-item:hover{
+    transform: scale(1.1);
+    background-color: yellow;
+}
